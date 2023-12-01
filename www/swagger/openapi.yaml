@@ -1,0 +1,153 @@
+openapi: 3.0.0
+info:
+  title: 'KTSP Environmental Site API'
+  description: 'The API provides an endpoint for filtering monitoring data'
+  version: 1.0.0
+servers:
+  -
+    url: 'https://localhost/api/'
+    description: 'The development server'
+paths:
+  /app/monitoringData:
+    get:
+      operationId: 'App\Api\Controller\MonitoringData::getIndex'
+      parameters:
+        -
+          name: type
+          in: query
+          description: 'The type of monitoring data to return (AIR or NOISE)'
+          required: true
+          schema:
+            type: string
+            example: AIR
+        -
+          name: station
+          in: query
+          description: 'The station to filter by'
+          required: false
+          schema:
+            type: string
+            example: NMS1
+        -
+          name: year
+          in: query
+          description: 'The year to filter by'
+          required: false
+          schema:
+            type: integer
+            example: '2018'
+        -
+          name: month
+          in: query
+          description: 'The month to filter by (1-12)'
+          required: false
+          schema:
+            type: integer
+            example: '6'
+      responses:
+        '200':
+          description: 'Returns filtered monitoring data (Air)'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetMonitoringDataAir'
+components:
+  schemas:
+    Response:
+      properties:
+        status:
+          description: 'The response status'
+          type: integer
+          example: 200
+        data:
+          description: 'The data associated to the request'
+          type: object
+        meta:
+          description: 'The meta info related with the request'
+          type: object
+      type: object
+    GetMonitoringDataAir:
+      allOf:
+        -
+          $ref: '#/components/schemas/Response'
+        -
+          properties:
+            data:
+              description: 'The data associated to the request'
+              type: array
+              items:
+                $ref: '#/components/schemas/Air'
+            meta:
+              description: 'The meta associated to the request'
+              properties:
+                columns:
+                  description: 'The meta associated to the request'
+                  type: array
+                  items: { type: string, example: [Date, Weather, Station, Time, 'Wind Speed (m/s)', 'Wind Direction (deg)', '1-hr TSP (ug/m3)'] }
+              type: object
+          type: object
+    GetMonitoringDataNoise:
+      allOf:
+        -
+          $ref: '#/components/schemas/Response'
+        -
+          properties:
+            data:
+              description: 'The data associated to the request'
+              type: array
+              items:
+                $ref: '#/components/schemas/Noise'
+            meta:
+              description: 'The meta associated to the request'
+              properties:
+                columns:
+                  description: 'The meta associated to the request'
+                  type: array
+                  items: { type: string, example: [Date, Weather, Station, 'Start Time', 'Wind Speed (m/s)', 'Leq (30 mins) (dB(A))'] }
+              type: object
+          type: object
+    Air:
+      properties:
+        date:
+          type: string
+          example: '2019-01-01'
+        weather:
+          type: string
+          example: Sunny
+        station:
+          type: string
+          example: AMS1
+        time:
+          type: string
+          example: '13:55:00'
+        wind_speed:
+          type: string
+          example: '3.0'
+        wind_direction:
+          type: string
+          example: '320'
+        one_hour_tsp:
+          type: string
+          example: '73'
+      type: object
+    Noise:
+      properties:
+        date:
+          type: string
+          example: '2019-01-01'
+        weather:
+          type: string
+          example: Sunny
+        station:
+          type: string
+          example: NMS1
+        start_time:
+          type: string
+          example: '10:27:00'
+        wind_speed:
+          type: string
+          example: '<5'
+        leq:
+          type: string
+          example: '72'
+      type: object

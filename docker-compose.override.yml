@@ -1,0 +1,29 @@
+version: "3.7"
+services:
+    webserver:
+        links:
+            - mail
+        environment:
+            - DOMAIN=localhost
+            - PRIVATE_KEY=e81a6d5665521fe0a81c1889e72f3d3e2722552aa81dcff9e60fdbb02875c357
+            - ENVIRONMENT=DEVELOPMENT
+            - DB_HOST=db
+            - DB_USERNAME=docker
+            - DB_PASSWORD=docker
+            - DB_DATABASE=dev
+            - MAIL_HOST=mail
+            - MAIL_PORT=1025
+            - WEBPACK_INPUT_PATH=./assets/js/
+            - WEBPACK_OUTPUT_PATH=./assets/build/
+            - DEPLOY_REVISION=
+            - DEPLOY_ROLLBAR_ACCESS_TOKEN=
+    mail:
+        build: "docker/mail"
+        ports:
+            - "1025:1025"
+            - "8025:8025"
+    db:
+        environment:
+            - MYSQL_USER=docker
+            - MYSQL_PASSWORD=docker
+            - MYSQL_DATABASE=dev

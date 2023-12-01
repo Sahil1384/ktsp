@@ -1,0 +1,4484 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ea638b58638a577bec112964952e8bf2",
+    "packages": [
+        {
+            "name": "adrienrn/php-mimetyper",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adrienrn/php-mimetyper.git",
+                "reference": "702e00a604b4baed34d69730ce055e05c0f43932"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adrienrn/php-mimetyper/zipball/702e00a604b4baed34d69730ce055e05c0f43932",
+                "reference": "702e00a604b4baed34d69730ce055e05c0f43932",
+                "shasum": ""
+            },
+            "require": {
+                "dflydev/apache-mime-types": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MimeTyper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hussard",
+                    "email": "adrien.ricartnoblet@gmail.com"
+                }
+            ],
+            "description": "PHP mime type and extension mapping library: compatible with Symfony, powered by jshttp/mime-db",
+            "time": "2018-09-27T09:45:05+00:00"
+        },
+        {
+            "name": "annexare/countries-list",
+            "version": "2.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/annexare/Countries.git",
+                "reference": "abfdb128bd43ac42708a953c5a46971cd4e678b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/annexare/Countries/zipball/abfdb128bd43ac42708a953c5a46971cd4e678b5",
+                "reference": "abfdb128bd43ac42708a953c5a46971cd4e678b5",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmytro",
+                    "email": "z@annexare.com",
+                    "homepage": "https://github.com/z-ax"
+                }
+            ],
+            "description": "Continents & countries: ISO 3166-1 alpha-2 code, name, ISO 639-1 languages, capital, currency, native name, phone. JSON, CSV and SQL.",
+            "homepage": "http://annexare.github.io/Countries/",
+            "keywords": [
+                "ISO 3166-1",
+                "ISO 639-1",
+                "capital",
+                "continent",
+                "countries",
+                "country",
+                "csv",
+                "currency",
+                "data",
+                "emoji",
+                "json",
+                "languages",
+                "node",
+                "sql"
+            ],
+            "time": "2019-07-16T10:18:32+00:00"
+        },
+        {
+            "name": "axisofstevil/stop-words",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/axisofstevil/stop-words.git",
+                "reference": "324298905c837e2cf95721d007f9440d5d763e04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/axisofstevil/stop-words/zipball/324298905c837e2cf95721d007f9440d5d763e04",
+                "reference": "324298905c837e2cf95721d007f9440d5d763e04",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Axisofstevil\\StopWords\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": ":Steven Maguire",
+                    "email": "stevenmaguire@gmail.com",
+                    "homepage": "http://stevenmaguire.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A library for managing and filtering text with stop words",
+            "homepage": "https://github.com/axisofstevil/stop-words",
+            "keywords": [
+                "filtering",
+                "package",
+                "stop words"
+            ],
+            "time": "2014-12-29T22:47:56+00:00"
+        },
+        {
+            "name": "behat/transliterator",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Behat/Transliterator.git",
+                "reference": "826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Behat/Transliterator/zipball/826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c",
+                "reference": "826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "chuyskywalker/rolling-curl": "^3.1",
+                "php-yaoi/php-yaoi": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Behat\\Transliterator": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Artistic-1.0"
+            ],
+            "description": "String transliterator",
+            "keywords": [
+                "i18n",
+                "slug",
+                "transliterator"
+            ],
+            "time": "2017-04-04T11:38:05+00:00"
+        },
+        {
+            "name": "codeigniter/framework",
+            "version": "3.1.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcit-ci/CodeIgniter.git",
+                "reference": "b73eb19aed66190c10c9cad476da7c36c271d6dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/b73eb19aed66190c10c9cad476da7c36c271d6dc",
+                "reference": "b73eb19aed66190c10c9cad476da7c36c271d6dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.7"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.1.*",
+                "phpunit/phpunit": "4.* || 5.*"
+            },
+            "suggest": {
+                "paragonie/random_compat": "Provides better randomness in PHP 5.x"
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The CodeIgniter framework",
+            "homepage": "https://codeigniter.com",
+            "time": "2019-09-19T12:08:45+00:00"
+        },
+        {
+            "name": "defuse/php-encryption",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/defuse/php-encryption.git",
+                "reference": "0f407c43b953d571421e0020ba92082ed5fb7620"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/defuse/php-encryption/zipball/0f407c43b953d571421e0020ba92082ed5fb7620",
+                "reference": "0f407c43b953d571421e0020ba92082ed5fb7620",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "paragonie/random_compat": ">= 2",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "nikic/php-parser": "^2.0|^3.0|^4.0",
+                "phpunit/phpunit": "^4|^5"
+            },
+            "bin": [
+                "bin/generate-defuse-key"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Defuse\\Crypto\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Hornby",
+                    "email": "taylor@defuse.ca",
+                    "homepage": "https://defuse.ca/"
+                },
+                {
+                    "name": "Scott Arciszewski",
+                    "email": "info@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "Secure PHP Encryption Library",
+            "keywords": [
+                "aes",
+                "authenticated encryption",
+                "cipher",
+                "crypto",
+                "cryptography",
+                "encrypt",
+                "encryption",
+                "openssl",
+                "security",
+                "symmetric key cryptography"
+            ],
+            "time": "2018-07-24T23:27:56+00:00"
+        },
+        {
+            "name": "dflydev/apache-mime-types",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dflydev/dflydev-apache-mime-types.git",
+                "reference": "f30a57e59b7476e4c5270b6a0727d79c9c0eb861"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dflydev/dflydev-apache-mime-types/zipball/f30a57e59b7476e4c5270b6a0727d79c9c0eb861",
+                "reference": "f30a57e59b7476e4c5270b6a0727d79c9c0eb861",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "twig/twig": "1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Dflydev\\ApacheMimeTypes": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dragonfly Development Inc.",
+                    "email": "info@dflydev.com",
+                    "homepage": "http://dflydev.com"
+                },
+                {
+                    "name": "Beau Simensen",
+                    "email": "beau@dflydev.com",
+                    "homepage": "http://beausimensen.com"
+                }
+            ],
+            "description": "Apache MIME Types",
+            "keywords": [
+                "apache",
+                "mime",
+                "mimetypes"
+            ],
+            "time": "2013-05-14T02:02:01+00:00"
+        },
+        {
+            "name": "doctrine/annotations",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "904dca4eb10715b92569fbcd79e201d5c349b6bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/904dca4eb10715b92569fbcd79e201d5c349b6bc",
+                "reference": "904dca4eb10715b92569fbcd79e201d5c349b6bc",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "1.*",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "doctrine/cache": "1.*",
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Docblock Annotations Parser",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "time": "2019-10-01T18:55:10+00:00"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "e17f069ede36f7534b95adec71910ed1b49c74ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/e17f069ede36f7534b95adec71910ed1b49c74ea",
+                "reference": "e17f069ede36f7534b95adec71910ed1b49c74ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^6.0",
+                "phpstan/phpstan": "^0.11.8",
+                "phpunit/phpunit": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "https://www.doctrine-project.org/projects/lexer.html",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "lexer",
+                "parser",
+                "php"
+            ],
+            "time": "2019-07-30T19:33:28+00:00"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2018-04-22T15:46:56+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-12-20T10:07:11+00:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "ext-zlib": "*",
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "suggest": {
+                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "psr-7",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "hybridauth/hybridauth",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hybridauth/hybridauth.git",
+                "reference": "be337a4a79bdb3b0587c81e202e674b40b125bcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/be337a4a79bdb3b0587c81e202e674b40b125bcb",
+                "reference": "be337a4a79bdb3b0587c81e202e674b40b125bcb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.8.35"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hybridauth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miled",
+                    "email": "hybridauth@gmail.com"
+                }
+            ],
+            "description": "PHP Social Authentication Library",
+            "homepage": "https://hybridauth.github.io",
+            "keywords": [
+                "Authentication",
+                "OpenId",
+                "api",
+                "authorization",
+                "facebook",
+                "google",
+                "oauth",
+                "social",
+                "twitter"
+            ],
+            "time": "2019-05-31T15:20:03+00:00"
+        },
+        {
+            "name": "katzien/php-mime-type",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/katzien/PhpMimeType.git",
+                "reference": "159dfbdcd5906442f3dad89951127f0b9dfa3b78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/katzien/PhpMimeType/zipball/159dfbdcd5906442f3dad89951127f0b9dfa3b78",
+                "reference": "159dfbdcd5906442f3dad89951127f0b9dfa3b78",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.*",
+                "satooshi/php-coveralls": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MimeType\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kat Zien"
+                }
+            ],
+            "description": "A PHP library to detect the mime type of files.",
+            "homepage": "https://github.com/katzien/PhpMimeType",
+            "keywords": [
+                "mimetype",
+                "php"
+            ],
+            "time": "2017-03-23T02:05:33+00:00"
+        },
+        {
+            "name": "masterexploder/phpthumb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masterexploder/PHPThumb.git",
+                "reference": "54b18cd00ab0a00dc90aa9871de0638efa93986a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/masterexploder/PHPThumb/zipball/54b18cd00ab0a00dc90aa9871de0638efa93986a",
+                "reference": "54b18cd00ab0a00dc90aa9871de0638efa93986a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPThumb": "src",
+                    "PHPThumb\\Tests": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ian Selby",
+                    "email": "ian@gxdlabs.com"
+                },
+                {
+                    "name": "Jarrod Nettles",
+                    "email": "jarrod.nettles@icloud.com"
+                }
+            ],
+            "description": "A library for manipulating images in PHP.",
+            "homepage": "https://github.com/masterexploder/PHPThumb",
+            "keywords": [
+                "image",
+                "resize",
+                "rotate"
+            ],
+            "time": "2019-08-06T20:38:22+00:00"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.25.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
+                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2019-09-06T13:49:17+00:00"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "v2.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "phpunit/phpunit": "~3.7|~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2017-07-11T12:54:05+00:00"
+        },
+        {
+            "name": "nails/common",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/common.git",
+                "reference": "823adac44bec66b2d294a18e491922fd4dace717"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/common/zipball/823adac44bec66b2d294a18e491922fd4dace717",
+                "reference": "823adac44bec66b2d294a18e491922fd4dace717",
+                "shasum": ""
+            },
+            "require": {
+                "adrienrn/php-mimetyper": "0.*",
+                "annexare/countries-list": "2.*",
+                "axisofstevil/stop-words": "0.*",
+                "behat/transliterator": "1.*",
+                "codeigniter/framework": "3.1.11",
+                "defuse/php-encryption": "2.*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "6.*",
+                "katzien/php-mime-type": "2.*",
+                "mustache/mustache": "2.*",
+                "php": ">=7.2",
+                "pimple/pimple": "3.*",
+                "ralouphie/getallheaders": "3.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "common",
+                    "type": "module",
+                    "namespace": "Nails\\Common\\",
+                    "autoload": {
+                        "services": [
+                            "ErrorHandler"
+                        ],
+                        "helpers": [
+                            "app_setting",
+                            "array",
+                            "cookie",
+                            "date",
+                            "debug",
+                            "directory",
+                            "email",
+                            "exception",
+                            "form",
+                            "html",
+                            "language",
+                            "log",
+                            "logo",
+                            "string",
+                            "text",
+                            "tools",
+                            "typography",
+                            "url"
+                        ]
+                    },
+                    "data": {
+                        "nails/module-cdn": {
+                            "permitted-image-dimensions": [
+                                "35x35"
+                            ]
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\": "src/",
+                    "Nails\\Common\\": "src/Common/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Nails is a framework for CodeIgniter designed to make building interactive web applications fast.",
+            "homepage": "http://nailsapp.co.uk",
+            "keywords": [
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-10-09T15:08:14+00:00"
+        },
+        {
+            "name": "nails/driver-cdn-local",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/driver-cdn-local.git",
+                "reference": "91f6ac5197566138d3d382b99c567051d4570c88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/driver-cdn-local/zipball/91f6ac5197566138d3d382b99c567051d4570c88",
+                "reference": "91f6ac5197566138d3d382b99c567051d4570c88",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "name": "Local",
+                    "type": "driver",
+                    "subType": "storage",
+                    "forModule": "nails/module-cdn",
+                    "data": {
+                        "namespace": "Nails\\Cdn\\Driver\\",
+                        "class": "Local",
+                        "settings": [
+                            {
+                                "key": "path",
+                                "label": "Path",
+                                "info": "Where to store uploaded files; absolute path to relative to index.php",
+                                "default": "assets/uploads"
+                            },
+                            {
+                                "legend": "URLs",
+                                "fields": [
+                                    {
+                                        "key": "uri_serve",
+                                        "label": "Serving URI",
+                                        "default": "cdn",
+                                        "info": "Value will be passed into <code>site_url($value)</code>"
+                                    },
+                                    {
+                                        "key": "uri_serve_secure",
+                                        "label": "Serving URI (Secure)",
+                                        "default": "cdn",
+                                        "info": "Value will be passed into <code>site_url($value, true)</code>"
+                                    },
+                                    {
+                                        "key": "uri_process",
+                                        "label": "Processing URI",
+                                        "default": "cdn",
+                                        "info": "Value will be passed into <code>site_url($value)</code>"
+                                    },
+                                    {
+                                        "key": "uri_process_secure",
+                                        "label": "Processing URI (Secure)",
+                                        "default": "cdn",
+                                        "info": "Value will be passed into <code>site_url($value, true)</code>"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Cdn\\Driver\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Local\" driver for the Nails CDN module.",
+            "homepage": "http://nailsapp.co.uk/modules/cdn/driver/awslocal",
+            "keywords": [
+                "CDN Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter",
+                "driver"
+            ],
+            "time": "2019-07-16T11:35:14+00:00"
+        },
+        {
+            "name": "nails/driver-error-handler-default",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/driver-error-handler-default.git",
+                "reference": "93609fefce675a32899f746785b8ea5053773ddd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/driver-error-handler-default/zipball/93609fefce675a32899f746785b8ea5053773ddd",
+                "reference": "93609fefce675a32899f746785b8ea5053773ddd",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "name": "Default",
+                    "type": "driver",
+                    "forModule": "nails/common",
+                    "subType": "ErrorHandler",
+                    "data": {
+                        "namespace": "Nails\\Common\\ErrorHandler\\",
+                        "class": "DefaultHandler"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Common\\ErrorHandler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the default Error Handler for Nails",
+            "homepage": "http://nailsapp.co.uk/driver/error-handler/default",
+            "keywords": [
+                "Nails",
+                "Shed Collective",
+                "codeigniter",
+                "driver",
+                "errorhandler"
+            ],
+            "time": "2019-07-19T14:33:19+00:00"
+        },
+        {
+            "name": "nails/driver-error-handler-rollbar",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/driver-error-handler-rollbar.git",
+                "reference": "e4d70402cfa0c760cd2ca5cd5e49250c705ebff9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/driver-error-handler-rollbar/zipball/e4d70402cfa0c760cd2ca5cd5e49250c705ebff9",
+                "reference": "e4d70402cfa0c760cd2ca5cd5e49250c705ebff9",
+                "shasum": ""
+            },
+            "require": {
+                "rollbar/rollbar": "~1.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "name": "Default",
+                    "type": "driver",
+                    "forModule": "nails/common",
+                    "subType": "ErrorHandler",
+                    "data": {
+                        "namespace": "Nails\\Common\\ErrorHandler\\",
+                        "class": "Rollbar"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Common\\ErrorHandler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This driver provides support for rollbar.com error handling in Nails",
+            "homepage": "http://nailsapp.co.uk/driver/error-handler/rollbar",
+            "keywords": [
+                "Nails",
+                "Shed Collective",
+                "codeigniter",
+                "driver",
+                "errorhandler",
+                "rollbar"
+            ],
+            "time": "2019-07-19T14:33:06+00:00"
+        },
+        {
+            "name": "nails/module-admin",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/module-admin.git",
+                "reference": "2b6c7eb97b1423128d4cf752be2c1627ae503039"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/module-admin/zipball/2b6c7eb97b1423128d4cf752be2c1627ae503039",
+                "reference": "2b6c7eb97b1423128d4cf752be2c1627ae503039",
+                "shasum": ""
+            },
+            "require": {
+                "nails/common": "dev-develop",
+                "nails/module-api": "dev-develop",
+                "nails/module-auth": "dev-develop",
+                "nails/module-cdn": "dev-develop",
+                "nails/module-console": "dev-develop"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "admin",
+                    "type": "module",
+                    "namespace": "Nails\\Admin\\",
+                    "data": {
+                        "nails/module-api": {
+                            "namespace": "admin"
+                        },
+                        "nails/module-cdn": {
+                            "permitted-image-dimensions": [
+                                "30x30",
+                                "35x35"
+                            ]
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Admin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Admin\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/admin",
+            "keywords": [
+                "Admin Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-10-09T10:18:28+00:00"
+        },
+        {
+            "name": "nails/module-api",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/module-api.git",
+                "reference": "ef29733c1276ad33a162be5b023f80a40a175661"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/module-api/zipball/ef29733c1276ad33a162be5b023f80a40a175661",
+                "reference": "ef29733c1276ad33a162be5b023f80a40a175661",
+                "shasum": ""
+            },
+            "require": {
+                "nails/common": "dev-develop",
+                "nails/module-console": "dev-develop"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "api",
+                    "type": "module",
+                    "namespace": "Nails\\Api\\"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"API\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/api",
+            "keywords": [
+                "API Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-10-03T15:08:06+00:00"
+        },
+        {
+            "name": "nails/module-asset",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/module-asset.git",
+                "reference": "f4ee9f8e7db00e4909d6fa981a7cb14a142b597c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/module-asset/zipball/f4ee9f8e7db00e4909d6fa981a7cb14a142b597c",
+                "reference": "f4ee9f8e7db00e4909d6fa981a7cb14a142b597c",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "asset",
+                    "type": "module",
+                    "namespace": "Nails\\Asset\\"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This module provides pre-compiled assets which are used by Nails modules.",
+            "homepage": "http://nailsapp.co.uk/modules/asset",
+            "keywords": [
+                "Asset Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-10-09T09:17:29+00:00"
+        },
+        {
+            "name": "nails/module-auth",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/module-auth.git",
+                "reference": "4b83bfacdc4f80b8b47daef16e995666d87c5d8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/module-auth/zipball/4b83bfacdc4f80b8b47daef16e995666d87c5d8b",
+                "reference": "4b83bfacdc4f80b8b47daef16e995666d87c5d8b",
+                "shasum": ""
+            },
+            "require": {
+                "hybridauth/hybridauth": "~3.0",
+                "nails/common": "dev-develop",
+                "nails/module-cdn": "dev-develop",
+                "nails/module-console": "dev-develop",
+                "sonata-project/google-authenticator": "~2.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "auth",
+                    "type": "module",
+                    "namespace": "Nails\\Auth\\",
+                    "autoload": {
+                        "models": [
+                            "User",
+                            "UserGroup",
+                            "UserPassword"
+                        ],
+                        "helpers": [
+                            "user"
+                        ]
+                    },
+                    "data": {
+                        "nails/module-admin": {
+                            "autoload": {
+                                "assets": {
+                                    "css": [
+                                        "admin.min.css"
+                                    ],
+                                    "js": [
+                                        "admin.min.js"
+                                    ]
+                                }
+                            }
+                        },
+                        "nails/module-api": {
+                            "namespace": "auth"
+                        },
+                        "nails/module-cdn": {
+                            "permitted-image-dimensions": [
+                                "35x35",
+                                "50x50",
+                                "65x65",
+                                "100x100",
+                                "100x125"
+                            ]
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Auth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Auth\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/auth",
+            "keywords": [
+                "Auth Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-10-07T09:32:41+00:00"
+        },
+        {
+            "name": "nails/module-cdn",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/module-cdn.git",
+                "reference": "1b96fd1100b6a5dbae1453af5d8d8a565ef09219"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/module-cdn/zipball/1b96fd1100b6a5dbae1453af5d8d8a565ef09219",
+                "reference": "1b96fd1100b6a5dbae1453af5d8d8a565ef09219",
+                "shasum": ""
+            },
+            "require": {
+                "masterexploder/phpthumb": "dev-master",
+                "nails/common": "dev-develop",
+                "nails/driver-cdn-local": "dev-develop",
+                "nails/module-console": "dev-develop",
+                "sybio/gif-creator": "~1.0.0",
+                "sybio/gif-frame-extractor": "~1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "cdn",
+                    "type": "module",
+                    "namespace": "Nails\\Cdn\\",
+                    "autoload": {
+                        "helpers": [
+                            "cdn",
+                            "form"
+                        ]
+                    },
+                    "data": {
+                        "nails/module-admin": {
+                            "autoload": {
+                                "assets": {
+                                    "js": [
+                                        "admin.min.js"
+                                    ],
+                                    "css": [
+                                        "admin.min.css"
+                                    ]
+                                }
+                            }
+                        },
+                        "nails/module-api": {
+                            "namespace": "cdn",
+                            "controller-map": {
+                                "Object": "CdnObject"
+                            }
+                        },
+                        "nails/module-cdn": {
+                            "permitted-image-dimensions": [
+                                "100x100",
+                                "150x150",
+                                "400x400"
+                            ]
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Cdn\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"CDN\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/cdn",
+            "keywords": [
+                "CDN Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-10-09T09:27:13+00:00"
+        },
+        {
+            "name": "nails/module-cms",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/module-cms.git",
+                "reference": "02dd4c86655126cb56ce54f57554c8f97550005d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/module-cms/zipball/02dd4c86655126cb56ce54f57554c8f97550005d",
+                "reference": "02dd4c86655126cb56ce54f57554c8f97550005d",
+                "shasum": ""
+            },
+            "require": {
+                "nails/module-cdn": "dev-develop",
+                "nails/module-console": "dev-develop"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "cms",
+                    "type": "module",
+                    "namespace": "Nails\\Cms\\",
+                    "autoload": {
+                        "helpers": [
+                            "cms"
+                        ]
+                    },
+                    "data": {
+                        "nails/module-admin": {
+                            "autoload": {
+                                "assets": {
+                                    "js": [
+                                        [
+                                            "mustache.js/mustache.js",
+                                            "NAILS-BOWER"
+                                        ],
+                                        [
+                                            "jquery-serialize-object/dist/jquery.serialize-object.min.js",
+                                            "NAILS-BOWER"
+                                        ],
+                                        "admin.min.js"
+                                    ],
+                                    "css": [
+                                        "admin.min.css"
+                                    ]
+                                }
+                            }
+                        },
+                        "nails/module-api": {
+                            "namespace": "cms"
+                        },
+                        "nails/module-cdn": {
+                            "permitted-image-dimensions": [
+                                "50x50",
+                                "130x130"
+                            ]
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Cms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"CMS\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/cms",
+            "keywords": [
+                "CMS Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-10-07T10:01:06+00:00"
+        },
+        {
+            "name": "nails/module-console",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/module-console.git",
+                "reference": "8d4a4c8bff4bc2f7941c42ced771a9d3d0c2ec1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/module-console/zipball/8d4a4c8bff4bc2f7941c42ced771a9d3d0c2ec1e",
+                "reference": "8d4a4c8bff4bc2f7941c42ced771a9d3d0c2ec1e",
+                "shasum": ""
+            },
+            "require": {
+                "nails/common": "dev-develop",
+                "symfony/console": "4.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "console",
+                    "type": "module",
+                    "namespace": "Nails\\Console\\"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Console\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Console\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/console",
+            "keywords": [
+                "Console Module",
+                "Nails",
+                "Shed Collective",
+                "cli",
+                "codeigniter"
+            ],
+            "time": "2019-06-04T14:15:54+00:00"
+        },
+        {
+            "name": "nails/module-email",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/module-email.git",
+                "reference": "f1c99b9621954382d2c4ca2608f7f77a1ac695ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/module-email/zipball/f1c99b9621954382d2c4ca2608f7f77a1ac695ab",
+                "reference": "f1c99b9621954382d2c4ca2608f7f77a1ac695ab",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "nails/common": "dev-develop",
+                "nails/module-auth": "dev-develop",
+                "nails/module-console": "dev-develop",
+                "phpmailer/phpmailer": "^6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "email",
+                    "type": "module",
+                    "namespace": "Nails\\Email\\"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Email\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Email\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/email",
+            "keywords": [
+                "Email Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-10-07T10:17:06+00:00"
+        },
+        {
+            "name": "nails/module-event",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/module-event.git",
+                "reference": "6e5f7ff3decb722a0b182bf72b1db462a5030285"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/module-event/zipball/6e5f7ff3decb722a0b182bf72b1db462a5030285",
+                "reference": "6e5f7ff3decb722a0b182bf72b1db462a5030285",
+                "shasum": ""
+            },
+            "require": {
+                "nails/common": "dev-develop"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.*"
+            },
+            "type": "library",
+            "extra": {
+                "nails": {
+                    "moduleName": "event",
+                    "type": "module",
+                    "namespace": "Nails\\Event\\",
+                    "autoload": {
+                        "services": [
+                            "Event"
+                        ],
+                        "helpers": [
+                            "event"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nails\\Event\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is the \"Event\" module for Nails.",
+            "homepage": "http://nailsapp.co.uk/modules/event",
+            "keywords": [
+                "Event Module",
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-05-02T14:21:55+00:00"
+        },
+        {
+            "name": "nails/nails",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nails/nails.git",
+                "reference": "efd0143872ee76f9c1b224019915048d7004486c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nails/nails/zipball/efd0143872ee76f9c1b224019915048d7004486c",
+                "reference": "efd0143872ee76f9c1b224019915048d7004486c",
+                "shasum": ""
+            },
+            "require": {
+                "nails/common": "dev-develop",
+                "nails/driver-error-handler-default": "dev-develop",
+                "nails/module-admin": "dev-develop",
+                "nails/module-asset": "dev-develop",
+                "nails/module-console": "dev-develop",
+                "nails/module-email": "dev-develop",
+                "nails/module-event": "dev-develop"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pablo de la Pena",
+                    "email": "p@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Duncan",
+                    "email": "g@nailsapp.co.uk",
+                    "homepage": "http://nailsapp.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Nails dependency bootstrapper.",
+            "homepage": "http://nailsapp.co.uk",
+            "keywords": [
+                "Nails",
+                "Shed Collective",
+                "codeigniter"
+            ],
+            "time": "2019-02-08T17:11:16+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v9.99.99",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*",
+                "vimeo/psalm": "^1"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "polyfill",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2018-07-02T15:55:56+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v6.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "26bd96350b0b2fcbf0ef4e6f0f9cf3528302a9d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/26bd96350b0b2fcbf0ef4e6f0f9cf3528302a9d8",
+                "reference": "26bd96350b0b2fcbf0ef4e6f0f9cf3528302a9d8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "doctrine/annotations": "1.2.*",
+                "friendsofphp/php-cs-fixer": "^2.2",
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "^4.8 || ^5.7",
+                "zendframework/zend-eventmanager": "3.0.*",
+                "zendframework/zend-i18n": "2.7.3",
+                "zendframework/zend-serializer": "2.7.*"
+            },
+            "suggest": {
+                "ext-mbstring": "Needed to send email in multibyte encoding charset",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2019-09-27T21:33:43+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2018-01-21T07:42:36+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2018-11-20T15:27:04+00:00"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "rollbar/rollbar",
+            "version": "v1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rollbar/rollbar-php.git",
+                "reference": "8a57ad9574d85bd818eaedfc8049fdcb16795f31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rollbar/rollbar-php/zipball/8a57ad9574d85bd818eaedfc8049fdcb16795f31",
+                "reference": "8a57ad9574d85bd818eaedfc8049fdcb16795f31",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "monolog/monolog": "^1",
+                "psr/log": "^1"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "mockery/mockery": "0.9.*",
+                "packfire/php5.3-compat": "*",
+                "phpmd/phpmd": "@stable",
+                "phpunit/phpunit": "4.8.*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "suggest": {
+                "fluent/logger": "Needed to use the 'fluent' handler for fluentd support",
+                "packfire/php5.3-compat": "for backward compatibility with PHP 5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rollbar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rollbar, Inc.",
+                    "email": "support@rollbar.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Monitors errors and exceptions and reports them to Rollbar",
+            "homepage": "http://github.com/rollbar/rollbar-php",
+            "keywords": [
+                "debugging",
+                "errors",
+                "exceptions",
+                "logging",
+                "monitoring"
+            ],
+            "time": "2019-05-06T11:31:11+00:00"
+        },
+        {
+            "name": "sonata-project/google-authenticator",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sonata-project/GoogleAuthenticator.git",
+                "reference": "feda53899b26af24e3db2fe7a3e5f053ca483762"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sonata-project/GoogleAuthenticator/zipball/feda53899b26af24e3db2fe7a3e5f053ca483762",
+                "reference": "feda53899b26af24e3db2fe7a3e5f053ca483762",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Google\\Authenticator\\": "src/",
+                    "Sonata\\GoogleAuthenticator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Stocker",
+                    "email": "me@chregu.tv"
+                },
+                {
+                    "name": "Andre DeMarre",
+                    "homepage": "http://www.devnetwork.net/viewtopic.php?f=50&t=94989"
+                },
+                {
+                    "name": "Thomas Rabaix",
+                    "email": "thomas.rabaix@gmail.com"
+                }
+            ],
+            "description": "Library to integrate Google Authenticator into a PHP project",
+            "homepage": "https://github.com/sonata-project/GoogleAuthenticator",
+            "keywords": [
+                "google authenticator"
+            ],
+            "time": "2018-07-18T22:08:02+00:00"
+        },
+        {
+            "name": "sybio/gif-creator",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sybio/GifCreator.git",
+                "reference": "250fc2f705181693c6c40b3d569d62353164bcbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sybio/GifCreator/zipball/250fc2f705181693c6c40b3d569d62353164bcbf",
+                "reference": "250fc2f705181693c6c40b3d569d62353164bcbf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GifCreator": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clément Guillemain",
+                    "homepage": "http://clementguillemain.fr",
+                    "role": "Developer / Freelancer"
+                }
+            ],
+            "description": "PHP class that creates animated GIF from multiple images",
+            "homepage": "https://github.com/Sybio/GifCreator",
+            "keywords": [
+                "animated",
+                "creation",
+                "encode",
+                "gif",
+                "php"
+            ],
+            "time": "2012-10-13T09:04:46+00:00"
+        },
+        {
+            "name": "sybio/gif-frame-extractor",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sybio/GifFrameExtractor.git",
+                "reference": "13e9880add3ae9cca10a48a0a3897fe3d0069f71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sybio/GifFrameExtractor/zipball/13e9880add3ae9cca10a48a0a3897fe3d0069f71",
+                "reference": "13e9880add3ae9cca10a48a0a3897fe3d0069f71",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GifFrameExtractor": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clément Guillemain",
+                    "homepage": "http://clementguillemain.fr",
+                    "role": "Developer / Freelancer"
+                }
+            ],
+            "description": "PHP class that separates all the frames (and their duration) of an animated GIF",
+            "homepage": "https://github.com/Sybio/GifFrameExtractor",
+            "keywords": [
+                "animated",
+                "duration",
+                "frame",
+                "gif",
+                "php",
+                "separate",
+                "time"
+            ],
+            "time": "2012-10-13T09:06:51+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v4.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "929ddf360d401b958f611d44e726094ab46a7369"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/929ddf360d401b958f611d44e726094ab46a7369",
+                "reference": "929ddf360d401b958f611d44e726094ab46a7369",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php73": "^1.8",
+                "symfony/service-contracts": "^1.1"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<3.4",
+                "symfony/event-dispatcher": "<4.3",
+                "symfony/process": "<3.3"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~3.4|~4.0",
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/event-dispatcher": "^4.3",
+                "symfony/lock": "~3.4|~4.0",
+                "symfony/process": "~3.4|~4.0",
+                "symfony/var-dumper": "^4.3"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/lock": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-10-07T12:36:49+00:00"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v4.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "5e575faa95548d0586f6bedaeabec259714e44d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/5e575faa95548d0586f6bedaeabec259714e44d1",
+                "reference": "5e575faa95548d0586f6bedaeabec259714e44d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-09-16T11:29:48+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2019-08-06T08:03:45+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2019-08-06T08:03:45+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php73",
+            "version": "v1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/2ceb49eaccb9352bff54d22570276bb75ba4a188",
+                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2019-08-06T08:03:45+00:00"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "version": "v1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "ffcde9615dc5bb4825b9f6aed07716f1f57faae0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/ffcde9615dc5bb4825b9f6aed07716f1f57faae0",
+                "reference": "ffcde9615dc5bb4825b9f6aed07716f1f57faae0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "psr/container": "^1.0"
+            },
+            "suggest": {
+                "symfony/service-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Service\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to writing services",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "time": "2019-09-17T11:12:18+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v4.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "41e16350a2a1c7383c4735aa2f9fce74cf3d1178"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/41e16350a2a1c7383c4735aa2f9fce74cf3d1178",
+                "reference": "41e16350a2a1c7383c4735aa2f9fce74cf3d1178",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<3.4"
+            },
+            "require-dev": {
+                "symfony/console": "~3.4|~4.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-09-11T15:41:19+00:00"
+        },
+        {
+            "name": "zircote/swagger-php",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zircote/swagger-php.git",
+                "reference": "f10ab7f81d89dba97653a980cc90cf4b7b73f543"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/f10ab7f81d89dba97653a980cc90cf4b7b73f543",
+                "reference": "f10ab7f81d89dba97653a980cc90cf4b7b73f543",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "*",
+                "php": ">=7.0",
+                "symfony/finder": ">=2.2",
+                "symfony/yaml": ">=3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=6.3",
+                "squizlabs/php_codesniffer": ">=3.3",
+                "zendframework/zend-form": "<2.8"
+            },
+            "bin": [
+                "bin/openapi"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OpenApi\\": "src"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Allen",
+                    "email": "zircote@gmail.com",
+                    "homepage": "http://www.zircote.com"
+                },
+                {
+                    "name": "Bob Fanger",
+                    "email": "bfanger@gmail.com",
+                    "homepage": "http://bfanger.nl"
+                }
+            ],
+            "description": "swagger-php - Generate interactive documentation for your RESTful API using phpdoc annotations",
+            "homepage": "https://github.com/zircote/swagger-php/",
+            "keywords": [
+                "api",
+                "json",
+                "rest",
+                "service discovery"
+            ],
+            "time": "2018-11-16T15:04:29+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "doctrine/instantiator",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/instantiator.git",
+                "reference": "a2c590166b2133a4633738648b6b064edae0814a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/a2c590166b2133a4633738648b6b064edae0814a",
+                "reference": "a2c590166b2133a4633738648b6b064edae0814a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^6.0",
+                "ext-pdo": "*",
+                "ext-phar": "*",
+                "phpbench/phpbench": "^0.13",
+                "phpstan/phpstan-phpunit": "^0.11",
+                "phpstan/phpstan-shim": "^0.11",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://ocramius.github.com/"
+                }
+            ],
+            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
+            "homepage": "https://www.doctrine-project.org/projects/instantiator.html",
+            "keywords": [
+                "constructor",
+                "instantiate"
+            ],
+            "time": "2019-03-17T17:37:11+00:00"
+        },
+        {
+            "name": "myclabs/deep-copy",
+            "version": "1.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "007c053ae6f31bba39dfa19a7726f56e9763bbea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/007c053ae6f31bba39dfa19a7726f56e9763bbea",
+                "reference": "007c053ae6f31bba39dfa19a7726f56e9763bbea",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "replace": {
+                "myclabs/deep-copy": "self.version"
+            },
+            "require-dev": {
+                "doctrine/collections": "^1.0",
+                "doctrine/common": "^2.6",
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                },
+                "files": [
+                    "src/DeepCopy/deep_copy.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Create deep copies (clones) of your objects",
+            "keywords": [
+                "clone",
+                "copy",
+                "duplicate",
+                "object",
+                "object graph"
+            ],
+            "time": "2019-08-09T12:45:53+00:00"
+        },
+        {
+            "name": "phar-io/manifest",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phar-io/manifest.git",
+                "reference": "7761fcacf03b4d4f16e7ccb606d4879ca431fcf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phar-io/manifest/zipball/7761fcacf03b4d4f16e7ccb606d4879ca431fcf4",
+                "reference": "7761fcacf03b4d4f16e7ccb606d4879ca431fcf4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-phar": "*",
+                "phar-io/version": "^2.0",
+                "php": "^5.6 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Heuer",
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
+            "time": "2018-07-08T19:23:20+00:00"
+        },
+        {
+            "name": "phar-io/version",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phar-io/version.git",
+                "reference": "45a2ec53a73c70ce41d55cedef9063630abaf1b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phar-io/version/zipball/45a2ec53a73c70ce41d55cedef9063630abaf1b6",
+                "reference": "45a2ec53a73c70ce41d55cedef9063630abaf1b6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Heuer",
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library for handling version information and constraints",
+            "time": "2018-07-08T19:19:57+00:00"
+        },
+        {
+            "name": "phpdocumentor/reflection-common",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
+                "reference": "63a995caa1ca9e5590304cd845c15ad6d482a62a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/63a995caa1ca9e5590304cd845c15ad6d482a62a",
+                "reference": "63a995caa1ca9e5590304cd845c15ad6d482a62a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Reflection\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jaap van Otterdijk",
+                    "email": "opensource@ijaap.nl"
+                }
+            ],
+            "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
+            "homepage": "http://www.phpdoc.org",
+            "keywords": [
+                "FQSEN",
+                "phpDocumentor",
+                "phpdoc",
+                "reflection",
+                "static analysis"
+            ],
+            "time": "2018-08-07T13:53:10+00:00"
+        },
+        {
+            "name": "phpdocumentor/reflection-docblock",
+            "version": "4.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "b83ff7cfcfee7827e1e78b637a5904fe6a96698e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/b83ff7cfcfee7827e1e78b637a5904fe6a96698e",
+                "reference": "b83ff7cfcfee7827e1e78b637a5904fe6a96698e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "phpdocumentor/reflection-common": "^1.0.0 || ^2.0.0",
+                "phpdocumentor/type-resolver": "~0.4 || ^1.0.0",
+                "webmozart/assert": "^1.0"
+            },
+            "require-dev": {
+                "doctrine/instantiator": "^1.0.5",
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Reflection\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "me@mikevanriel.com"
+                }
+            ],
+            "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
+            "time": "2019-09-12T14:27:41+00:00"
+        },
+        {
+            "name": "phpdocumentor/type-resolver",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/TypeResolver.git",
+                "reference": "2e32a6d48972b2c1976ed5d8967145b6cec4a4a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/2e32a6d48972b2c1976ed5d8967145b6cec4a4a9",
+                "reference": "2e32a6d48972b2c1976ed5d8967145b6cec4a4a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "phpdocumentor/reflection-common": "^2.0"
+            },
+            "require-dev": {
+                "ext-tokenizer": "^7.1",
+                "mockery/mockery": "~1",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Reflection\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "me@mikevanriel.com"
+                }
+            ],
+            "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
+            "time": "2019-08-22T18:11:29+00:00"
+        },
+        {
+            "name": "phpspec/prophecy",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpspec/prophecy.git",
+                "reference": "f6811d96d97bdf400077a0cc100ae56aa32b9203"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/f6811d96d97bdf400077a0cc100ae56aa32b9203",
+                "reference": "f6811d96d97bdf400077a0cc100ae56aa32b9203",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "^1.0.2",
+                "php": "^5.3|^7.0",
+                "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0|^5.0",
+                "sebastian/comparator": "^1.1|^2.0|^3.0",
+                "sebastian/recursion-context": "^1.0|^2.0|^3.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "^2.5|^3.2",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Prophecy\\": "src/Prophecy"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Konstantin Kudryashov",
+                    "email": "ever.zet@gmail.com",
+                    "homepage": "http://everzet.com"
+                },
+                {
+                    "name": "Marcello Duarte",
+                    "email": "marcello.duarte@gmail.com"
+                }
+            ],
+            "description": "Highly opinionated mocking framework for PHP 5.3+",
+            "homepage": "https://github.com/phpspec/prophecy",
+            "keywords": [
+                "Double",
+                "Dummy",
+                "fake",
+                "mock",
+                "spy",
+                "stub"
+            ],
+            "time": "2019-10-03T11:07:50+00:00"
+        },
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "7.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "aa0d179a13284c7420fc281fc32750e6cc7c9e2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/aa0d179a13284c7420fc281fc32750e6cc7c9e2f",
+                "reference": "aa0d179a13284c7420fc281fc32750e6cc7c9e2f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-xmlwriter": "*",
+                "php": "^7.2",
+                "phpunit/php-file-iterator": "^2.0.2",
+                "phpunit/php-text-template": "^1.2.1",
+                "phpunit/php-token-stream": "^3.1.1",
+                "sebastian/code-unit-reverse-lookup": "^1.0.1",
+                "sebastian/environment": "^4.2.2",
+                "sebastian/version": "^2.0.1",
+                "theseer/tokenizer": "^1.1.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.2.2"
+            },
+            "suggest": {
+                "ext-xdebug": "^2.7.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+            "keywords": [
+                "coverage",
+                "testing",
+                "xunit"
+            ],
+            "time": "2019-09-17T06:24:36+00:00"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "050bedf145a257b1ff02746c31894800e5122946"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/050bedf145a257b1ff02746c31894800e5122946",
+                "reference": "050bedf145a257b1ff02746c31894800e5122946",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
+            "keywords": [
+                "filesystem",
+                "iterator"
+            ],
+            "time": "2018-09-13T20:33:42+00:00"
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+                "reference": "31f8b717e51d9a2afca6c9f046f5d69fc27c8686",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple template engine.",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+            "keywords": [
+                "template"
+            ],
+            "time": "2015-06-21T13:50:34+00:00"
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "1038454804406b0b5f5f520358e78c1c2f71501e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/1038454804406b0b5f5f520358e78c1c2f71501e",
+                "reference": "1038454804406b0b5f5f520358e78c1c2f71501e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for timing",
+            "homepage": "https://github.com/sebastianbergmann/php-timer/",
+            "keywords": [
+                "timer"
+            ],
+            "time": "2019-06-07T04:22:29+00:00"
+        },
+        {
+            "name": "phpunit/php-token-stream",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "995192df77f63a59e47f025390d2d1fdf8f425ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/995192df77f63a59e47f025390d2d1fdf8f425ff",
+                "reference": "995192df77f63a59e47f025390d2d1fdf8f425ff",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Wrapper around PHP's tokenizer extension.",
+            "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
+            "keywords": [
+                "tokenizer"
+            ],
+            "time": "2019-09-17T06:23:10+00:00"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "8.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "366a4a0f2b971fd43b7c351d621e8dd7d7131869"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/366a4a0f2b971fd43b7c351d621e8dd7d7131869",
+                "reference": "366a4a0f2b971fd43b7c351d621e8dd7d7131869",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "^1.2.0",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "myclabs/deep-copy": "^1.9.1",
+                "phar-io/manifest": "^1.0.3",
+                "phar-io/version": "^2.0.1",
+                "php": "^7.2",
+                "phpspec/prophecy": "^1.8.1",
+                "phpunit/php-code-coverage": "^7.0.7",
+                "phpunit/php-file-iterator": "^2.0.2",
+                "phpunit/php-text-template": "^1.2.1",
+                "phpunit/php-timer": "^2.1.2",
+                "sebastian/comparator": "^3.0.2",
+                "sebastian/diff": "^3.0.2",
+                "sebastian/environment": "^4.2.2",
+                "sebastian/exporter": "^3.1.1",
+                "sebastian/global-state": "^3.0.0",
+                "sebastian/object-enumerator": "^3.0.3",
+                "sebastian/resource-operations": "^2.0.1",
+                "sebastian/type": "^1.1.3",
+                "sebastian/version": "^2.0.1"
+            },
+            "require-dev": {
+                "ext-pdo": "*"
+            },
+            "suggest": {
+                "ext-soap": "*",
+                "ext-xdebug": "*",
+                "phpunit/php-invoker": "^2.0.0"
+            },
+            "bin": [
+                "phpunit"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.4-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "The PHP Unit Testing framework.",
+            "homepage": "https://phpunit.de/",
+            "keywords": [
+                "phpunit",
+                "testing",
+                "xunit"
+            ],
+            "time": "2019-10-07T12:57:41+00:00"
+        },
+        {
+            "name": "sebastian/code-unit-reverse-lookup",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
+                "reference": "4419fcdb5eabb9caa61a27c7a1db532a6b55dd18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/4419fcdb5eabb9caa61a27c7a1db532a6b55dd18",
+                "reference": "4419fcdb5eabb9caa61a27c7a1db532a6b55dd18",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Looks up which function or method a line of code belongs to",
+            "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
+            "time": "2017-03-04T06:30:41+00:00"
+        },
+        {
+            "name": "sebastian/comparator",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/comparator.git",
+                "reference": "5de4fc177adf9bce8df98d8d141a7559d7ccf6da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/5de4fc177adf9bce8df98d8d141a7559d7ccf6da",
+                "reference": "5de4fc177adf9bce8df98d8d141a7559d7ccf6da",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "sebastian/diff": "^3.0",
+                "sebastian/exporter": "^3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@2bepublished.at"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides the functionality to compare PHP values for equality",
+            "homepage": "https://github.com/sebastianbergmann/comparator",
+            "keywords": [
+                "comparator",
+                "compare",
+                "equality"
+            ],
+            "time": "2018-07-12T15:12:46+00:00"
+        },
+        {
+            "name": "sebastian/diff",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "720fcc7e9b5cf384ea68d9d930d480907a0c1a29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/720fcc7e9b5cf384ea68d9d930d480907a0c1a29",
+                "reference": "720fcc7e9b5cf384ea68d9d930d480907a0c1a29",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5 || ^8.0",
+                "symfony/process": "^2 || ^3.3 || ^4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kore Nordmann",
+                    "email": "mail@kore-nordmann.de"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Diff implementation",
+            "homepage": "https://github.com/sebastianbergmann/diff",
+            "keywords": [
+                "diff",
+                "udiff",
+                "unidiff",
+                "unified diff"
+            ],
+            "time": "2019-02-04T06:01:07+00:00"
+        },
+        {
+            "name": "sebastian/environment",
+            "version": "4.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/environment.git",
+                "reference": "f2a2c8e1c97c11ace607a7a667d73d47c19fe404"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/f2a2c8e1c97c11ace607a7a667d73d47c19fe404",
+                "reference": "f2a2c8e1c97c11ace607a7a667d73d47c19fe404",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5"
+            },
+            "suggest": {
+                "ext-posix": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides functionality to handle HHVM/PHP environments",
+            "homepage": "http://www.github.com/sebastianbergmann/environment",
+            "keywords": [
+                "Xdebug",
+                "environment",
+                "hhvm"
+            ],
+            "time": "2019-05-05T09:05:15+00:00"
+        },
+        {
+            "name": "sebastian/exporter",
+            "version": "3.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/exporter.git",
+                "reference": "68609e1261d215ea5b21b7987539cbfbe156ec3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/68609e1261d215ea5b21b7987539cbfbe156ec3e",
+                "reference": "68609e1261d215ea5b21b7987539cbfbe156ec3e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "sebastian/recursion-context": "^3.0"
+            },
+            "require-dev": {
+                "ext-mbstring": "*",
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Provides the functionality to export PHP variables for visualization",
+            "homepage": "http://www.github.com/sebastianbergmann/exporter",
+            "keywords": [
+                "export",
+                "exporter"
+            ],
+            "time": "2019-09-14T09:02:43+00:00"
+        },
+        {
+            "name": "sebastian/global-state",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/global-state.git",
+                "reference": "edf8a461cf1d4005f19fb0b6b8b95a9f7fa0adc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/edf8a461cf1d4005f19fb0b6b8b95a9f7fa0adc4",
+                "reference": "edf8a461cf1d4005f19fb0b6b8b95a9f7fa0adc4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2",
+                "sebastian/object-reflector": "^1.1.1",
+                "sebastian/recursion-context": "^3.0"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "phpunit/phpunit": "^8.0"
+            },
+            "suggest": {
+                "ext-uopz": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Snapshotting of global state",
+            "homepage": "http://www.github.com/sebastianbergmann/global-state",
+            "keywords": [
+                "global state"
+            ],
+            "time": "2019-02-01T05:30:01+00:00"
+        },
+        {
+            "name": "sebastian/object-enumerator",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
+                "reference": "7cfd9e65d11ffb5af41198476395774d4c8a84c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/7cfd9e65d11ffb5af41198476395774d4c8a84c5",
+                "reference": "7cfd9e65d11ffb5af41198476395774d4c8a84c5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "sebastian/object-reflector": "^1.1.1",
+                "sebastian/recursion-context": "^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Traverses array structures and object graphs to enumerate all referenced objects",
+            "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
+            "time": "2017-08-03T12:35:26+00:00"
+        },
+        {
+            "name": "sebastian/object-reflector",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/object-reflector.git",
+                "reference": "773f97c67f28de00d397be301821b06708fca0be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-reflector/zipball/773f97c67f28de00d397be301821b06708fca0be",
+                "reference": "773f97c67f28de00d397be301821b06708fca0be",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Allows reflection of object attributes, including inherited and non-public ones",
+            "homepage": "https://github.com/sebastianbergmann/object-reflector/",
+            "time": "2017-03-29T09:07:27+00:00"
+        },
+        {
+            "name": "sebastian/recursion-context",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                "reference": "5b0cd723502bac3b006cbf3dbf7a1e3fcefe4fa8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/5b0cd723502bac3b006cbf3dbf7a1e3fcefe4fa8",
+                "reference": "5b0cd723502bac3b006cbf3dbf7a1e3fcefe4fa8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                }
+            ],
+            "description": "Provides functionality to recursively process PHP variables",
+            "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "time": "2017-03-03T06:23:57+00:00"
+        },
+        {
+            "name": "sebastian/resource-operations",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/resource-operations.git",
+                "reference": "4d7a795d35b889bf80a0cc04e08d77cedfa917a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/4d7a795d35b889bf80a0cc04e08d77cedfa917a9",
+                "reference": "4d7a795d35b889bf80a0cc04e08d77cedfa917a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides a list of PHP built-in functions that operate on resources",
+            "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
+            "time": "2018-10-04T04:07:39+00:00"
+        },
+        {
+            "name": "sebastian/type",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/type.git",
+                "reference": "3aaaa15fa71d27650d62a948be022fe3b48541a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/3aaaa15fa71d27650d62a948be022fe3b48541a3",
+                "reference": "3aaaa15fa71d27650d62a948be022fe3b48541a3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Collection of value objects that represent the types of the PHP type system",
+            "homepage": "https://github.com/sebastianbergmann/type",
+            "time": "2019-07-02T08:10:15+00:00"
+        },
+        {
+            "name": "sebastian/version",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/version.git",
+                "reference": "99732be0ddb3361e16ad77b68ba41efc8e979019"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/99732be0ddb3361e16ad77b68ba41efc8e979019",
+                "reference": "99732be0ddb3361e16ad77b68ba41efc8e979019",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that helps with managing the version number of Git-hosted PHP projects",
+            "homepage": "https://github.com/sebastianbergmann/version",
+            "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
+            "name": "theseer/tokenizer",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theseer/tokenizer.git",
+                "reference": "11336f6f84e16a720dae9d8e6ed5019efa85a0f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/11336f6f84e16a720dae9d8e6ed5019efa85a0f9",
+                "reference": "11336f6f84e16a720dae9d8e6ed5019efa85a0f9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
+            "time": "2019-06-13T22:48:21+00:00"
+        },
+        {
+            "name": "webmozart/assert",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozart/assert.git",
+                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/88e6d84706d09a236046d686bbea96f07b3a34f4",
+                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.36 || ^7.5.13"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Assert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Assertions to validate method input/output with nice error messages.",
+            "keywords": [
+                "assert",
+                "check",
+                "validate"
+            ],
+            "time": "2019-08-24T08:43:50+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "nails/nails": 20,
+        "nails/module-cms": 20,
+        "nails/module-api": 20,
+        "nails/driver-error-handler-rollbar": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
